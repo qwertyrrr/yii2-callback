@@ -11,16 +11,15 @@
 `php yii migrate --migrationPath=vendor/qwertyrrr/yii2-callback/migrations`
 #Подключение и настройка#
 В конфигурационный файл приложения добавить модуль:  
-`
-'modules' => [  
-		// other modules  
+    'modules' => [  
+        // other modules  
         'callback' => [  
             'class' => 'qwertyrrr\callback\Module\',  
             //module settings  
         ],  
         // other modules  
-]  
-`  
+    ]  
+  
 #Кастомизация модуля#
 Вы можете кастомизировать модуль используя настройки ниже.  
 * **Настройки рассылки:**  
