@@ -6,7 +6,7 @@ use yii\bootstrap\ActiveForm;
 use qwertyrrr\callback\Module;
 use qwertyrrr\callback\models\Callback;
 $model = new Callback();
-$module = Module::getInstance();
+$module = \Yii::$app->getModule('callback');
 ?>
 <button class="btn btn-success" data-toggle="modal" data-target="#modal-callback">Открыть</button>
 
