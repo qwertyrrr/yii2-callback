@@ -12,10 +12,10 @@ class CallbackAsset extends AssetBundle
     ];
     
 	public $js = [
-		'common/modules/callback/web/js/callback.js'
+		'qwertyrrr/callback/web/js/callback.js'
 	];
 	public $css = [
-		'common/modules/callback/web/css/callback.css'
+		'qwertyrrr/callback/web/css/callback.css'
 	];
 
 }
