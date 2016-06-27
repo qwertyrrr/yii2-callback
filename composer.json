@@ -1,0 +1,26 @@
+{
+    "name": "qwertyrrr/yii2-callback",
+    "description": "yii2-callback it's a simple module for create a callback form on ur site",
+    "keywords": ["yii2", "yii 2", "application", "callback", "module", "qwertyrrr"],
+    "homepage": "https://github.com/qwertyrrr/",
+    "type": "yii2-extension",
+    "license": "BSD-3-Clause",
+    "support": {
+        "source": "https://github.com/qwertyrrr/yii2-callback"
+    },
+    "authors": [
+        {
+            "name": "Alexander qwertyrrr",
+            "email": "qwertytrewqru@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.4.0",
+        "yiisoft/yii2": "*",
+        "yiisoft/yii2-bootstrap": "*"
+    },
+    "config": {
+        "process-timeout": 1800
+    },
+}
