@@ -12,10 +12,16 @@ class CallbackAsset extends AssetBundle
     ];
     
 	public $js = [
-		'qwertyrrr/callback/web/js/callback.js'
+		'js/callback.js'
 	];
 	public $css = [
-		'qwertyrrr/callback/web/css/callback.css'
+		'css/callback.css'
 	];
+
+	public function init()
+    {
+        $this->sourcePath = dirname(__DIR__).'/web';
+        parent::init();
+    }
 
 }
