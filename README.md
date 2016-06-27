@@ -15,7 +15,7 @@
     'modules' => [  
         // other modules  
         'callback' => [  
-            'class' => 'qwertyrrr\callback\Module\',  
+            'class' => 'qwertyrrr\callback\Module',  
             //module settings  
         ],  
         // other modules  
