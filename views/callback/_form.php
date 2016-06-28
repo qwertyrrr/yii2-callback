@@ -22,8 +22,6 @@ use yii\bootstrap\ActiveForm;
 
     <?php echo $form->field($model, 'time')->textInput(['maxlength' => true]) ?>
 
-    <?php echo $form->field($model, 'createdAt')->textInput() ?>
-
     <div class="form-group">
         <?php echo Html::submitButton($model->isNewRecord ? 'Create' : 'Update', ['class' => $model->isNewRecord ? 'btn btn-success' : 'btn btn-primary']) ?>
     </div>
