@@ -25,7 +25,7 @@
     },
     "autoload": {
         "psr-4": {
-            "qwertyrrr\\callback\\": "vendor/qwertyrrr/yii2-callback"
+            "qwertyrrr\\callback\\": ""
         }
     }
 }
