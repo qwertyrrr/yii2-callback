@@ -8,7 +8,7 @@ use qwertyrrr\callback\models\Callback;
 $model = new Callback();
 $module = \Yii::$app->getModule('callback');
 ?>
-<button class="btn btn-success" data-toggle="modal" data-target="#modal-callback">Открыть</button>
+<a data-toggle="modal" data-target="#modal-callback"><?=$module->openButtonTitle?></a>
 
 <div class="modal fade" id="modal-callback" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
   <div class="modal-dialog modal-md">
@@ -64,7 +64,7 @@ $module = \Yii::$app->getModule('callback');
       	</div>
       	<div class="col-md-12 text-center">
         	<div class="form-group">
-       			<?php echo Html::submitButton($module->buttonTitle, ['class' => 'btn btn-success', 'id' => 'callbackSubmit']) ?>
+       			<?php echo Html::submitButton($module->buttonTitle, ['class' => 'btn btn-secondary', 'id' => 'callbackSubmit']) ?>
     </div>
         </div>
 

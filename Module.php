@@ -13,6 +13,7 @@ class Module extends \yii\base\Module
 	public $mailTemplate = '/mails/callbackMail';
 	
 	/* View settigns */
+	public $openButtonTitle = "Обратный звонок";
 	public $formTitle = "Заказать звонок";
 	public $nameTitle = "Ваше имя:";
 	public $namePlaceholder = "Анатолий";
