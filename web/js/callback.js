@@ -3,8 +3,26 @@ var callbackApp = {
 		$('#callbackSubmit').on('click', this.callbackSubmit);
 	},
 	callbackSubmit: function( event ) {
+
 		var data = $('#callback-form').serialize();
-		$.post('/backend/web/callback/callback/create-ajax', data);
+		$.ajax({
+        	url: '/backend/web/callback/callback/create-ajax',
+        	type: "POST",
+        	data: data,
+        	success: function (result) {
+	            if (result == 'true') {
+	            	console.log('post callback');
+					$('#modal-callback').modal('hide');
+	            } else {
+	            	$
+	            	var res = $.parseJSON(result);
+	            	$('#callback-errorSummary').empty();
+	            	$.each(res, function(key, value) {
+	            		$('#callback-errorSummary').append("<li>"+value+"</li>");
+	            	});
+	            }
+        }
+    });
 	}
 }
 

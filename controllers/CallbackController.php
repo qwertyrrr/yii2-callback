@@ -70,7 +70,9 @@ class CallbackController extends Controller
                 ->setSubject($module->subject)
                 ->send();
             }
+            return json_encode(true);
         }
+        return json_encode($model->getErrors());
     }
     public function actionIndex()
     {

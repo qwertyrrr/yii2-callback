@@ -57,14 +57,13 @@ $module = \Yii::$app->getModule('callback');
                         </div>
                     </div>
                    </div>
+                   <div class="col-md-12 text-center " id="callback-errorSummary"></div>
       </div>
       <div class="modal-footer">
-      	<div class="col-md-12 text-center " id="callback-errorSummary">
       	
-      	</div>
       	<div class="col-md-12 text-center">
         	<div class="form-group">
-       			<?php echo Html::submitButton($module->buttonTitle, ['class' => 'btn btn-secondary', 'id' => 'callbackSubmit']) ?>
+       			<?php echo Html::button($module->buttonTitle, ['class' => 'btn btn-secondary', 'id' => 'callbackSubmit']) ?>
     </div>
         </div>
 

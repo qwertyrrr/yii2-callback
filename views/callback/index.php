@@ -14,7 +14,7 @@ $this->params['breadcrumbs'][] = $this->title;
 
     <?php // echo $this->render('_search', ['model' => $searchModel]); ?>
     <p>
-        <?= qwertyrrr\callback\widgets\callbackform::widget(); ?>
+        <?= qwertyrrr\callback\widgets\Callbackform::widget(); ?>
     </p>
     <p>
         <?php echo Html::a('Create Callback', ['create'], ['class' => 'btn btn-success']) ?>

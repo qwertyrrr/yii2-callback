@@ -15,11 +15,11 @@ class Module extends \yii\base\Module
 	/* View settigns */
 	public $openButtonTitle = "Обратный звонок";
 	public $formTitle = "Заказать звонок";
-	public $nameTitle = "Ваше имя:";
+	public $nameTitle = "Ваше имя";
 	public $namePlaceholder = "Анатолий";
-	public $phoneTitle = "Ваш телефон:";
+	public $phoneTitle = "Ваш телефон";
 	public $phonePlaceholder = "88005553535";
-	public $messageTitle = "Сообщение:";
+	public $messageTitle = "Сообщение";
 	public $messagePlaceholder = "Текст...";
 	public $timeTitle = "Время для звонка: ";
 	public $times = [
