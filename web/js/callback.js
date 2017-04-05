@@ -6,7 +6,7 @@ var callbackApp = {
 
 		var data = $('#callback-form').serialize();
 		$.ajax({
-        	url: '/backend/web/callback/callback/create-ajax',
+        	url: '/frontend/web/callback/callback/create-ajax',
         	type: "POST",
         	data: data,
         	success: function (result) {
